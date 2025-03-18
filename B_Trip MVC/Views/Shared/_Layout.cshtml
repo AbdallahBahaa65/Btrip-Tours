@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<link href="~/files/style.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap/js/bootstrap.bundle.js" rel="stylesheet" />
+</head>
+<body>
+
+
+
+	<section>
+		<nav>
+			<div class="logo">
+				<h1>
+					B-Tri<span>p</span>
+				</h1>
+			</div>
+			<ul>
+				<li><a href="/Home/Recent">احدث العروض </a></li>
+				<li><a href="/Home/Index" >الرئيسيه</a></li>
+				<li><a href="/Account/Login" >Login</a></li>
+				<li><a href="/Account/Sign" >Sign Up</a></li>
+			</ul>
+		</nav>
+		<div>
+			@RenderBody()
+		</div>
+
+	</section>
+</body>
+</html>
